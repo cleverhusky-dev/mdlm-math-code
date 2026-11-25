@@ -1,0 +1,32 @@
+# Model weights and local runs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+work/
+wandb/
+logs/
+/sft/data/
+/sft/inputs/
+/.mdlm-data-work/
+
+# Python environments and local build files
+__pycache__/
+*.py[cod]
+.venv*/
+.pytest_cache/
+.coverage
+*.egg-info/
+build/
+dist/
+
+# Local settings and partial downloads
+.env
+.env.*
+*.pem
+*.key
+*.part
+*.partial
+.DS_Store
+Thumbs.db

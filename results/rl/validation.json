@@ -1,0 +1,165 @@
+{
+  "temperature": 0.1,
+  "denoising_steps": 128,
+  "seed": 1,
+  "records": [
+    {
+      "step": 0,
+      "num_questions": 639,
+      "counts": {
+        "correct": 290,
+        "format_failure": 39,
+        "execution_failure": 45,
+        "wrong_answer": 265
+      },
+      "accuracy": 0.4538341158059468,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "c97f3f6fc7cd1d69fc96d151f14310688d3618b473caf2fdc6e0dc8077909616"
+    },
+    {
+      "step": 100,
+      "num_questions": 639,
+      "counts": {
+        "correct": 299,
+        "format_failure": 37,
+        "execution_failure": 48,
+        "wrong_answer": 255
+      },
+      "accuracy": 0.4679186228482003,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "41f2036839cebf429f7fed614bbc40aa4cd864d5ed220860e715b740f586bb0f"
+    },
+    {
+      "step": 200,
+      "num_questions": 639,
+      "counts": {
+        "correct": 297,
+        "format_failure": 26,
+        "execution_failure": 53,
+        "wrong_answer": 263
+      },
+      "accuracy": 0.4647887323943662,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "4e44013274f139e4d85c640c5966c598786a671974f7fcd46e1116ab19b779b9"
+    },
+    {
+      "step": 300,
+      "num_questions": 639,
+      "counts": {
+        "correct": 291,
+        "format_failure": 34,
+        "execution_failure": 48,
+        "wrong_answer": 266
+      },
+      "accuracy": 0.45539906103286387,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "83da99b1a91ac1f0e8d23ed90bd7ee7371d4fdcb549caf0578babac5081119b1"
+    },
+    {
+      "step": 400,
+      "num_questions": 639,
+      "counts": {
+        "correct": 293,
+        "format_failure": 34,
+        "execution_failure": 51,
+        "wrong_answer": 261
+      },
+      "accuracy": 0.458528951486698,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "ca4def1dc070458d0301fb1ebbdb7761a56319bf462a2daf1759d47cfbbdd3bb"
+    },
+    {
+      "step": 500,
+      "num_questions": 639,
+      "counts": {
+        "correct": 308,
+        "format_failure": 23,
+        "execution_failure": 47,
+        "wrong_answer": 261
+      },
+      "accuracy": 0.48200312989045385,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "34bcd24ed37fbe92922332670bc9a80ed8936acb2dac70e5c2d4b7a662485da9"
+    },
+    {
+      "step": 600,
+      "num_questions": 639,
+      "counts": {
+        "correct": 303,
+        "format_failure": 31,
+        "execution_failure": 48,
+        "wrong_answer": 257
+      },
+      "accuracy": 0.47417840375586856,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "22c6fa5645da3e3123790e640cfeffe73b4f7dde83425a671a6ace1e05c4c77b"
+    },
+    {
+      "step": 700,
+      "num_questions": 639,
+      "counts": {
+        "correct": 296,
+        "format_failure": 32,
+        "execution_failure": 50,
+        "wrong_answer": 261
+      },
+      "accuracy": 0.46322378716744916,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "165441f7e803051a1e6d8add2bd5b355a31061b9cace489cd10c4bdc47aa7c25"
+    },
+    {
+      "step": 800,
+      "num_questions": 639,
+      "counts": {
+        "correct": 290,
+        "format_failure": 33,
+        "execution_failure": 54,
+        "wrong_answer": 262
+      },
+      "accuracy": 0.4538341158059468,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "e29a1ef33ff85e09c6d66becf4a61b4a4a0d8bcb4898d94b3d0e31db43359002"
+    },
+    {
+      "step": 900,
+      "num_questions": 639,
+      "counts": {
+        "correct": 284,
+        "format_failure": 40,
+        "execution_failure": 53,
+        "wrong_answer": 262
+      },
+      "accuracy": 0.4444444444444444,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "ada4c04b4a95db09459eab396823e29f498a783cc6095e785ed72d9a63c002c7"
+    },
+    {
+      "step": 1000,
+      "num_questions": 639,
+      "counts": {
+        "correct": 294,
+        "format_failure": 33,
+        "execution_failure": 51,
+        "wrong_answer": 261
+      },
+      "accuracy": 0.460093896713615,
+      "protocol_sha256": "8be255ef851df42abcca14b4805d9b70592f4ea849450a66b2eb5c136ac6c608",
+      "predictions_sha256": "6ea8b898bde5f1135bfa7ae07918324d79a98c05eb4d7fb860d5b8b55bfe5b04"
+    }
+  ],
+  "step_0_to_500": {
+    "both_correct": 271,
+    "newly_correct": 37,
+    "newly_incorrect": 19,
+    "both_incorrect": 312
+  },
+  "compute": {
+    "optimizer_steps": 1000,
+    "rollout_batches": 250,
+    "unique_training_questions": 2000,
+    "questions_seen": 2000,
+    "generated_completions": 16000,
+    "wall_seconds": 17981.163220844,
+    "allocated_gpu_hours": 9.98953512269111
+  }
+}

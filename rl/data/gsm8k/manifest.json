@@ -1,0 +1,22 @@
+{
+  "artifacts_sha256": {
+    "train_questions.jsonl": "a2a42bf52f5cdc740cedbdcaa771f988268a6594cb3b8b2ec73dec28b838b4e2",
+    "val_questions.jsonl": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+  },
+  "counts": {
+    "train": {
+      "questions": 5747
+    },
+    "val": {
+      "questions": 639
+    }
+  },
+  "kind": "rl_questions",
+  "parent_manifest_sha256": "a155bd95cdbb92184e3c3db5a9c91f98d62f77ed3dfcfec547ea627034f814e8",
+  "schema_version": 1,
+  "sequence_length": 512,
+  "source_files_sha256": {
+    "train_questions.jsonl": "a2a42bf52f5cdc740cedbdcaa771f988268a6594cb3b8b2ec73dec28b838b4e2",
+    "val_questions.jsonl": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+  }
+}

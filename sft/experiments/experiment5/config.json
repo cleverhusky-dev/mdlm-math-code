@@ -1,0 +1,23 @@
+{
+  "reference_config": "experiments/experiment1/config.json",
+  "output_dir": "runs/experiment5",
+  "selection_seed": 5,
+  "questions_per_split": 64,
+  "max_reference_tokens": 256,
+  "max_wall_seconds": 600,
+  "instance_hourly_rmb": 4.74,
+  "models": [
+    {
+      "name": "pretrained",
+      "kind": "pretrained",
+      "checkpoint": "inputs/mdlm.ckpt",
+      "score_dir": "runs/experiment0/validation"
+    },
+    {
+      "name": "sft_original",
+      "kind": "sft",
+      "checkpoint": "runs/experiment1/training/checkpoints/step-00000609.pt",
+      "score_dir": "runs/experiment1/training/validation/step-00000609"
+    }
+  ]
+}

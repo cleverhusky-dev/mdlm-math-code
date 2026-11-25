@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "scope": "Initial SFT implementation; frozen prepared data, tokenizer and pretrained checkpoint",
+  "files": [
+    {
+      "path": "data/prepared/manifest.json",
+      "kind": "prepared_data",
+      "size_bytes": 2855,
+      "sha256": "376d2fd66e72a318ba120ad969446d6b5c76636bdb7fc0a61b747011c89f4326"
+    },
+    {
+      "path": "data/prepared/train.jsonl",
+      "kind": "prepared_data",
+      "size_bytes": 13143909,
+      "sha256": "7e87768003517ee63afe41a5475db2325d0377811c3f54b1175d83230add8309"
+    },
+    {
+      "path": "data/prepared/train.npz",
+      "kind": "prepared_data",
+      "size_bytes": 1767521,
+      "sha256": "44253b5861b9eb0a075b80e94da587a1658e3dfe43a8783115176a37be5dff6e"
+    },
+    {
+      "path": "data/prepared/train_ids.json",
+      "kind": "prepared_data",
+      "size_bytes": 96856,
+      "sha256": "b85e34cf010cd742ac39327ac3d0f78f75b10ebe6b09e68326337e9533ac967c"
+    },
+    {
+      "path": "data/prepared/train_questions.jsonl",
+      "kind": "prepared_data",
+      "size_bytes": 1669428,
+      "sha256": "a2a42bf52f5cdc740cedbdcaa771f988268a6594cb3b8b2ec73dec28b838b4e2"
+    },
+    {
+      "path": "data/prepared/val.jsonl",
+      "kind": "prepared_data",
+      "size_bytes": 1483553,
+      "sha256": "b773c136e54e5ac87c68926bcbaa066d40daf3b66dfa92d190b82f0b19ef28b8"
+    },
+    {
+      "path": "data/prepared/val.npz",
+      "kind": "prepared_data",
+      "size_bytes": 199289,
+      "sha256": "7643d81db9adf6f3e469f217cfc6381978348e2753ebd1fadc3abbfb770e4f20"
+    },
+    {
+      "path": "data/prepared/val_ids.json",
+      "kind": "prepared_data",
+      "size_bytes": 10764,
+      "sha256": "4bc2a7bce3fc47ea216b6963cd575e45282d0a05b119deaba3ed59b8e305f874"
+    },
+    {
+      "path": "data/prepared/val_questions.jsonl",
+      "kind": "prepared_data",
+      "size_bytes": 184847,
+      "sha256": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+    },
+    {
+      "path": "inputs/tokenizer/config.json",
+      "kind": "tokenizer",
+      "size_bytes": 724,
+      "sha256": "a1fe6f43e20f7a6c6dbc6380222af9526b5cef262446391a281c038249e3e3b7",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/config.json"
+    },
+    {
+      "path": "inputs/tokenizer/merges.txt",
+      "kind": "tokenizer",
+      "size_bytes": 466391,
+      "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/merges.txt"
+    },
+    {
+      "path": "inputs/tokenizer/special_tokens_map.json",
+      "kind": "tokenizer",
+      "size_bytes": 831,
+      "sha256": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/special_tokens_map.json"
+    },
+    {
+      "path": "inputs/tokenizer/tokenizer.json",
+      "kind": "tokenizer",
+      "size_bytes": 2104556,
+      "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/tokenizer.json"
+    },
+    {
+      "path": "inputs/tokenizer/tokenizer_config.json",
+      "kind": "tokenizer",
+      "size_bytes": 3685,
+      "sha256": "238ad6b60d48e471624ea70bc79e92f2611844d5016471fee8c167854bcb98e8",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/tokenizer_config.json"
+    },
+    {
+      "path": "inputs/tokenizer/vocab.json",
+      "kind": "tokenizer",
+      "size_bytes": 800662,
+      "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M/resolve/1d461723eec654e65efdc40cf49301c89c0c92f4/vocab.json"
+    },
+    {
+      "path": "inputs/mdlm.ckpt",
+      "kind": "checkpoint",
+      "size_bytes": 2688828376,
+      "sha256": "251b4c935424622c13d75712cfefef0cae6829ad7bab6b712e009fc372bf1583",
+      "url": "https://huggingface.co/jdeschena/s-flm/resolve/3ec8edc326c698b4f915dbfa42f0ef5c8b8815f9/tinygsm/mdlm.ckpt"
+    }
+  ]
+}

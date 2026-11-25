@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.pytest_cache/
+runs/
+/inputs/*
+!/inputs/tokenizer/
+/data/*
+!/data/gsm8k/
+*.pt
+*.ckpt
+*.bundle
+*.bundle.sha256
+*.part
+.env
+.env.*

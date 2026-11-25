@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "sequence_length": 512,
+  "artifacts_sha256": {
+    "train.jsonl": "dfa7262d4073a716ac5e6684d9601e793811fc6724db8b8a79bce669f4698681",
+    "train.npz": "bfcf0dd0ead38be1391b033f4471d76398a0d0194f54bd3961113bcad8eb0363",
+    "train_ids.json": "b85e34cf010cd742ac39327ac3d0f78f75b10ebe6b09e68326337e9533ac967c",
+    "train_questions.jsonl": "a2a42bf52f5cdc740cedbdcaa771f988268a6594cb3b8b2ec73dec28b838b4e2",
+    "val.jsonl": "b773c136e54e5ac87c68926bcbaa066d40daf3b66dfa92d190b82f0b19ef28b8",
+    "val.npz": "7643d81db9adf6f3e469f217cfc6381978348e2753ebd1fadc3abbfb770e4f20",
+    "val_ids.json": "4bc2a7bce3fc47ea216b6963cd575e45282d0a05b119deaba3ed59b8e305f874",
+    "val_questions.jsonl": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+  },
+  "counts": {
+    "train": {
+      "questions": 5747,
+      "samples": 12288,
+      "target_tokens": 5522165
+    },
+    "val": {
+      "questions": 639,
+      "samples": 1456,
+      "target_tokens": 655019
+    }
+  },
+  "encoded_token_sha256": "17738df0008f1c981dbe9bf8d4b670c8ea1d5ffb8d79fa45b64a11b26abe797d",
+  "tokenizer": {
+    "bos_id": 0,
+    "dependencies": {
+      "huggingface-hub": "0.30.2",
+      "tokenizers": "0.20.3",
+      "transformers": "4.45.0"
+    },
+    "eos_id": 0,
+    "files_sha256": {
+      "config.json": "a1fe6f43e20f7a6c6dbc6380222af9526b5cef262446391a281c038249e3e3b7",
+      "merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "special_tokens_map.json": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3",
+      "tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+      "tokenizer_config.json": "238ad6b60d48e471624ea70bc79e92f2611844d5016471fee8c167854bcb98e8",
+      "vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    "mask_id": 49153,
+    "model_vocab_size": 49154,
+    "pad_id": 49152,
+    "repo": "HuggingFaceTB/SmolLM-135M",
+    "revision": "1d461723eec654e65efdc40cf49301c89c0c92f4",
+    "separator": "\\n",
+    "separator_ids": [
+      76,
+      94
+    ],
+    "vocab_without_mask": 49153
+  },
+  "checks": {
+    "exact_training_duplicates_remaining": 0,
+    "no_question_overlap": true,
+    "question_split_unchanged": true,
+    "retained_row_order_unchanged": true,
+    "retained_text_matches_cache": true,
+    "validation_files_byte_identical": true
+  },
+  "official_check": {
+    "official_test_accessed": false,
+    "official_train_rows": 7473,
+    "questions_checked": 6386
+  },
+  "rl_exclusion_file": "val_ids.json",
+  "split": {
+    "algorithm": "Preserve question split; retain first exact (gsm8k_id, code) in training",
+    "seed": 42
+  },
+  "derivation": {
+    "keep": "first",
+    "key": [
+      "gsm8k_id",
+      "code"
+    ],
+    "kind": "exact_training_deduplication",
+    "removed_samples": 665,
+    "retained_rows": "unchanged",
+    "sampling": "Uniform over retained samples; per-question multiplicity may change",
+    "validation_references": "byte-identical to parent",
+    "release_parent_dataset": "prepared",
+    "release_parent_manifest_sha256": "376d2fd66e72a318ba120ad969446d6b5c76636bdb7fc0a61b747011c89f4326"
+  }
+}

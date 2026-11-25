@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "benchmark": "gsm8k",
+  "source_config": "experiments/experiment12/config.json",
+  "output_dir": "runs/benchmark/gsm8k",
+  "test": {
+    "path": "inputs/gsm8k/test.parquet",
+    "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "questions": 1319
+  },
+  "models": [
+    {
+      "id": "pretrained",
+      "kind": "pretrained",
+      "checkpoint": "inputs/mdlm.ckpt",
+      "sha256": "251b4c935424622c13d75712cfefef0cae6829ad7bab6b712e009fc372bf1583"
+    },
+    {
+      "id": "sft",
+      "kind": "sft",
+      "checkpoint": "runs/experiment12/training/checkpoints/best.pt",
+      "sha256": "a40142b8d8f351194d5086e986c7de3b33050de564d1e64620bb47b65f03e566",
+      "global_step": 960,
+      "model_sha256": "a7721f015650d2ef33220d5c2954ed4f07cb97518cee9e88ca4f6ef319c476d9"
+    }
+  ],
+  "settings": [
+    {"id": "t1-s32", "temperature": 1.0, "steps": 32},
+    {"id": "t01-s32", "temperature": 0.1, "steps": 32},
+    {"id": "t01-s128", "temperature": 0.1, "steps": 128}
+  ],
+  "max_wall_seconds_per_case": 7200
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "sequence_length": 512,
+  "artifacts_sha256": {
+    "train.jsonl": "f04e86bd18ccdb196aa1d13a922ca9488d86f6525ace034fbdfc572d5e71206c",
+    "train.npz": "895b2c023b8b29cc24f73a155774d2294caa47cb6a38b2b2bd1e5a97e26472e4",
+    "train_ids.json": "30a5163c99357526c1f439b07c1ff04fb2d4d5bef4e0eb1d103525b5805ed41a",
+    "train_questions.jsonl": "5992ff4a75eafd1f3987f1ba2be235b566bc81adc46aea0fa2775006a1d09b09",
+    "val.jsonl": "b773c136e54e5ac87c68926bcbaa066d40daf3b66dfa92d190b82f0b19ef28b8",
+    "val.npz": "7643d81db9adf6f3e469f217cfc6381978348e2753ebd1fadc3abbfb770e4f20",
+    "val_ids.json": "4bc2a7bce3fc47ea216b6963cd575e45282d0a05b119deaba3ed59b8e305f874",
+    "val_questions.jsonl": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+  },
+  "counts": {
+    "train": {
+      "questions": 8819,
+      "samples": 15360,
+      "target_tokens": 6947115
+    },
+    "val": {
+      "questions": 639,
+      "samples": 1456,
+      "target_tokens": 655019
+    }
+  },
+  "encoded_token_sha256": "f390aad592a4f3e24509abed8e1ef6e0775ed09e498814c931b39e629081ba14",
+  "tokenizer": {
+    "bos_id": 0,
+    "dependencies": {
+      "huggingface-hub": "0.30.2",
+      "tokenizers": "0.20.3",
+      "transformers": "4.45.0"
+    },
+    "eos_id": 0,
+    "files_sha256": {
+      "config.json": "a1fe6f43e20f7a6c6dbc6380222af9526b5cef262446391a281c038249e3e3b7",
+      "merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "special_tokens_map.json": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3",
+      "tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+      "tokenizer_config.json": "238ad6b60d48e471624ea70bc79e92f2611844d5016471fee8c167854bcb98e8",
+      "vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    "mask_id": 49153,
+    "model_vocab_size": 49154,
+    "pad_id": 49152,
+    "repo": "HuggingFaceTB/SmolLM-135M",
+    "revision": "1d461723eec654e65efdc40cf49301c89c0c92f4",
+    "separator": "\\n",
+    "separator_ids": [
+      76,
+      94
+    ],
+    "vocab_without_mask": 49153
+  },
+  "checks": {
+    "all_total_tokens_within_512": true,
+    "parent_rows_and_encoded_arrays_unchanged": true,
+    "tinygsm_executable": true,
+    "tinygsm_independent_answer_correctness_verified": false,
+    "tinygsm_unique_normalized_questions": true,
+    "validation_files_byte_identical": true
+  },
+  "official_check": {
+    "parent": {
+      "official_test_accessed": false,
+      "official_train_rows": 7473,
+      "questions_checked": 6386
+    },
+    "scope": "parent GSM8K rows only",
+    "tinygsm_test_overlap_check": "Question column for exclusion only; no answers read or evaluation"
+  },
+  "rl_exclusion_file": "val_ids.json",
+  "split": {
+    "algorithm": "Preserve parent train/val; append unique executable TinyGSM replay, numeric source ID order",
+    "seed": 8
+  },
+  "derivation": {
+    "kind": "tinygsm_replay_mix",
+    "parent_rows": "retained unchanged in original order",
+    "tinygsm_code": "verbatim including docstrings/comments",
+    "tinygsm_gold": "not available; execution_answer is not independent ground truth",
+    "validation_references": "byte-identical to parent",
+    "release_parent_dataset": "style",
+    "release_parent_manifest_sha256": "23c60b0cc391c8565c1989914d6a6391d5d8dce8b54a099d1e687bb8f60a9cd7"
+  },
+  "mixing": {
+    "parent_samples": 12288,
+    "replay_fraction": 0.2,
+    "replay_samples": 3072,
+    "sampling": "uniform shuffled training rows",
+    "steps_per_epoch_at_batch64": 240
+  }
+}

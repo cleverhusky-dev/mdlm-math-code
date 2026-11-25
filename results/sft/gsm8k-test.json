@@ -1,0 +1,98 @@
+[
+  {
+    "model": "pretrained",
+    "model_step": null,
+    "temperature": 1.0,
+    "denoising_steps": 32,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 83,
+      "format_failure": 473,
+      "execution_failure": 615,
+      "wrong_answer": 148
+    },
+    "accuracy": 0.06292645943896892,
+    "protocol_sha256": "0ba7e6204b154ac5d6665b5346ddee4ea67e264bb2ce4224e8c3b2eb5a7201a7",
+    "predictions_sha256": "cb507f250c4c00e62b23b67ba11095cee5fbe5cc37731129d2e6256141e7b310"
+  },
+  {
+    "model": "sft",
+    "model_step": 960,
+    "temperature": 1.0,
+    "denoising_steps": 32,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 205,
+      "format_failure": 381,
+      "execution_failure": 409,
+      "wrong_answer": 324
+    },
+    "accuracy": 0.155420773313116,
+    "protocol_sha256": "0ba7e6204b154ac5d6665b5346ddee4ea67e264bb2ce4224e8c3b2eb5a7201a7",
+    "predictions_sha256": "18901cdb0e501912a900745b054f6f80c4fa284735de0dc944d13353703088f4"
+  },
+  {
+    "model": "pretrained",
+    "model_step": null,
+    "temperature": 0.1,
+    "denoising_steps": 32,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 269,
+      "format_failure": 263,
+      "execution_failure": 359,
+      "wrong_answer": 428
+    },
+    "accuracy": 0.20394238059135708,
+    "protocol_sha256": "39ed26153524c684584ad95f290a2f3f0f248d4ab7c010bd89503274446bb810",
+    "predictions_sha256": "4221bb217abe6048e723195ba53e8dc23b64ede99e731cf1543139bb82d81ed2"
+  },
+  {
+    "model": "sft",
+    "model_step": 960,
+    "temperature": 0.1,
+    "denoising_steps": 32,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 399,
+      "format_failure": 178,
+      "execution_failure": 171,
+      "wrong_answer": 571
+    },
+    "accuracy": 0.3025018953752843,
+    "protocol_sha256": "39ed26153524c684584ad95f290a2f3f0f248d4ab7c010bd89503274446bb810",
+    "predictions_sha256": "f30a15e7a948ffb1b7cf17f147fdb2042640bf884e912bfc7f49ae4858cf8f6e"
+  },
+  {
+    "model": "pretrained",
+    "model_step": null,
+    "temperature": 0.1,
+    "denoising_steps": 128,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 389,
+      "format_failure": 203,
+      "execution_failure": 229,
+      "wrong_answer": 498
+    },
+    "accuracy": 0.29492039423805916,
+    "protocol_sha256": "7e33a0654d5d419006ea1a57e6d151ca3b845ca9e23b929f8aa5a5c81d74c24e",
+    "predictions_sha256": "403eace25f55c65fc38cde05411e181b9c65ed71906ce4dcf3db9718ade0b6af"
+  },
+  {
+    "model": "sft",
+    "model_step": 960,
+    "temperature": 0.1,
+    "denoising_steps": 128,
+    "num_questions": 1319,
+    "counts": {
+      "correct": 475,
+      "format_failure": 77,
+      "execution_failure": 80,
+      "wrong_answer": 687
+    },
+    "accuracy": 0.3601213040181956,
+    "protocol_sha256": "7e33a0654d5d419006ea1a57e6d151ca3b845ca9e23b929f8aa5a5c81d74c24e",
+    "predictions_sha256": "cdd330f3041137af77bd6daf1f5447e894598f172d0763a4b6a0efd0d357c583"
+  }
+]

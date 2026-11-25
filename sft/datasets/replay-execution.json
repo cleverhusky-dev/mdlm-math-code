@@ -1,0 +1,15 @@
+{
+  "accepted": 3072,
+  "accepted_sha256": "af9253240a3cbd5bbe6d5943196f77ef9ca8263c7ee64ca5b4879e1cdefa0e74",
+  "candidates_sha256": "1701ec5c339fa1c50411f326c0e9467f13f4a9994995e21f0647fd9053b18c5b",
+  "checked": 3180,
+  "checks_sha256": "972ee59c2a4f14691f29a6e0b4b89cc7af52da5fe31e4d245cacac3486cfb9c7",
+  "correctness": "Executable finite numeric result only; no independent gold in TinyGSM; mathematical correctness unverified",
+  "result_counts": {
+    "execution_failure": 18,
+    "format_failure": 89,
+    "ok": 3073
+  },
+  "scorer_version": "sflm-30def799-numeric-v1-linux-policy-v2-return-int-status-v2",
+  "status": "passed"
+}

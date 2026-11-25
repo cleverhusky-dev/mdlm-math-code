@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "source/MathInstruct.json",
+      "size_bytes": 212488891,
+      "sha256": "15b8be9824c31d619078f43baf67f7243c53f475ae4de5f8346b6d3ea9c269dd",
+      "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct/resolve/b4fdc323a7be1379c9c7c0b67b1de72dfee2111a/MathInstruct.json"
+    },
+    {
+      "path": "source/train.parquet",
+      "size_bytes": 2306545,
+      "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet"
+    },
+    {
+      "path": "gsm8k/test.parquet",
+      "size_bytes": 419088,
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet"
+    },
+    {
+      "path": "tinygsm/train-00000-of-00017.parquet",
+      "size_bytes": 211307555,
+      "sha256": "d389393b96571894c1ace3510c0767334db04bb367cd8864506349158dbaf96e",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00000-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00001-of-00017.parquet",
+      "size_bytes": 211312301,
+      "sha256": "45c0a71d5a07152c8c96e985b4d9723967b966ac586ed80fc5233d7b24ba15a1",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00001-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00002-of-00017.parquet",
+      "size_bytes": 211384172,
+      "sha256": "7b9a1e286264ff922381db5a0a18d7fe5236e37704abb718eaa7f98b2adb4982",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00002-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00003-of-00017.parquet",
+      "size_bytes": 211225464,
+      "sha256": "c4ffefcc03d7e19973b9d2cc70bc0a0ff4c255173237e54005544672600db461",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00003-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00004-of-00017.parquet",
+      "size_bytes": 194115306,
+      "sha256": "918364ddbc82314453772e4c3feb6a46cfaa1ce206403096cc55e173b0c6f1e7",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00004-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00005-of-00017.parquet",
+      "size_bytes": 192082576,
+      "sha256": "0fc6e99bc5af0f6142b133992ee998fe70615903bfc5101faf329fd96f43cb8b",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00005-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00006-of-00017.parquet",
+      "size_bytes": 192091954,
+      "sha256": "dc84d1920a6f6580a5a0fc93a45e05efae91c5741d01a6beaec002b0642c4d4c",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00006-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00007-of-00017.parquet",
+      "size_bytes": 192193033,
+      "sha256": "5e65533ffe8ef1d737fe99ed86c123e920753ae4e8ce568f43b17b792ffae12b",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00007-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00008-of-00017.parquet",
+      "size_bytes": 227107839,
+      "sha256": "e61205bcf725b3f75a83f0d97bbe7766f56366064831dba98b2d5c109142055b",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00008-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00009-of-00017.parquet",
+      "size_bytes": 254397052,
+      "sha256": "dbe6db914ece8f98be447a9e6ffe2dc9767e98d1edd4333313e5faee1a893f5e",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00009-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00010-of-00017.parquet",
+      "size_bytes": 226519980,
+      "sha256": "e37acf1fdbbeffdd5a3dbf8b21ba460f5427abc1beb190ce46047fdfbbeedf6f",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00010-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00011-of-00017.parquet",
+      "size_bytes": 191718372,
+      "sha256": "a856e9a6d924ed66e2244adf1d5fd5bc82224fae22b4adf91172320fda2e0816",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00011-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00012-of-00017.parquet",
+      "size_bytes": 191665513,
+      "sha256": "a9622149279661f8a33a3487b6175ec8031554414be942190a73e47862933180",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00012-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00013-of-00017.parquet",
+      "size_bytes": 191725048,
+      "sha256": "1a54f5e90de9465b838e4413d05ced81d7769d010e45e85325f2820232ae7fb8",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00013-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00014-of-00017.parquet",
+      "size_bytes": 200000803,
+      "sha256": "09a82a1dc2006a692d49772bff8a9aa0d0c888445c69f288b32c89247df2e100",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00014-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00015-of-00017.parquet",
+      "size_bytes": 326052069,
+      "sha256": "41f0f6c8db27f7a3d56d203c059f4e4f9123aa732c3ea02333a08709b1c56710",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00015-of-00017.parquet"
+    },
+    {
+      "path": "tinygsm/train-00016-of-00017.parquet",
+      "size_bytes": 325948737,
+      "sha256": "f81e2dd5697da4066496d14ea94f11f5787b623decc24e1a064f2c1471bda371",
+      "url": "https://huggingface.co/datasets/TinyGSM/TinyGSM/resolve/5049a7840fa546985eaae4c698d5daf6fdf7b47d/data/train-00016-of-00017.parquet"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Python 3.12. Install torch==2.6.0 for the target CPU/CUDA platform.
+torch==2.6.0
+transformers==4.45.0
+tokenizers==0.20.3
+huggingface-hub==0.30.2
+numpy==1.26.4
+einops==0.8.1
+omegaconf==2.3.0
+pyarrow==19.0.1
+PyYAML==6.0.2
+safetensors==0.5.2

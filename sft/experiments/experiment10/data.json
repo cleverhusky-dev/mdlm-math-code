@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "dataset": "mix",
+  "files": [
+    {
+      "path": "data/mix/manifest.json",
+      "size_bytes": 3586,
+      "sha256": "22c4327aae01b5100436ee71cb66832d2c1da4b56aac331538bbffa63f201c86"
+    },
+    {
+      "path": "data/mix/train.jsonl",
+      "size_bytes": 14847264,
+      "sha256": "f04e86bd18ccdb196aa1d13a922ca9488d86f6525ace034fbdfc572d5e71206c"
+    },
+    {
+      "path": "data/mix/train.npz",
+      "size_bytes": 1925556,
+      "sha256": "895b2c023b8b29cc24f73a155774d2294caa47cb6a38b2b2bd1e5a97e26472e4"
+    },
+    {
+      "path": "data/mix/train_ids.json",
+      "size_bytes": 164253,
+      "sha256": "30a5163c99357526c1f439b07c1ff04fb2d4d5bef4e0eb1d103525b5805ed41a"
+    },
+    {
+      "path": "data/mix/train_questions.jsonl",
+      "size_bytes": 2592545,
+      "sha256": "5992ff4a75eafd1f3987f1ba2be235b566bc81adc46aea0fa2775006a1d09b09"
+    },
+    {
+      "path": "data/mix/val.jsonl",
+      "size_bytes": 1483553,
+      "sha256": "b773c136e54e5ac87c68926bcbaa066d40daf3b66dfa92d190b82f0b19ef28b8"
+    },
+    {
+      "path": "data/mix/val.npz",
+      "size_bytes": 199289,
+      "sha256": "7643d81db9adf6f3e469f217cfc6381978348e2753ebd1fadc3abbfb770e4f20"
+    },
+    {
+      "path": "data/mix/val_ids.json",
+      "size_bytes": 10764,
+      "sha256": "4bc2a7bce3fc47ea216b6963cd575e45282d0a05b119deaba3ed59b8e305f874"
+    },
+    {
+      "path": "data/mix/val_questions.jsonl",
+      "size_bytes": 184847,
+      "sha256": "924c41fa5b4aeefa5c6762e852e5cf8fa7364cfd598efdcd0b6f1452788b2bf8"
+    }
+  ],
+  "parent": {
+    "experiment": "experiment8"
+  },
+  "planned_training": {
+    "base_experiment": "experiment8",
+    "learning_rate": 0.0001,
+    "epochs": 5,
+    "global_batch_size": 64,
+    "steps_per_epoch": 240,
+    "total_steps": 1200,
+    "base_steps_per_epoch": 192,
+    "base_total_steps": 960,
+    "updates_increase_fraction": 0.25,
+    "training_config_created": true,
+    "training_started": false
+  }
+}
